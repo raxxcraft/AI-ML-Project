@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+*.venv*/
+.venv310/
+
+# Local tools (portable git, etc.)
+mingit/
+portable_git/
+
+# Datasets and generated data
+**/_merged_dataset/
+**/final_mrl_dataset/
+**/final_dataset/
+**/other_activities/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+download/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Model artifacts
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Data
+*.csv
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+
+# Other
+*.sqlite3
+*.db

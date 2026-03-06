@@ -1,0 +1,7 @@
+tensorflow==2.13.0
+keras
+opencv-python
+numpy
+matplotlib
+scikit-learn
+pillow
